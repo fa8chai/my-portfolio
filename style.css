@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: unset;
+    overflow: hidden;
+}
+#current{color:rgb(200,20,20)}
+#wellcome-section{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+}
+span{color:rgb(170,0,0)}
+h1{color:rgb(40, 43, 43)}
+.h1{font-size: 3rem} 
+.h1 , p{margin: 0}
+nav{
+    background-color: rgb(40, 43, 43);
+    color:white;
+    margin:0;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    border-bottom: solid 5px rgb(170,0,0);
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    text-decoration: unset;
+    display: inline;
+    padding:15px;
+    margin: auto;
+}
+a{text-decoration: unset;color:white}
+#flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.about{padding-top: 500px;
+    background-color: rgb(40, 43, 43);
+    color:white;
+    line-height: 2;
+    letter-spacing: 1.2px;
+    word-spacing: 4.5px;
+    font-size: 0.9rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50% ; 
+    height: 100% }
+.wellcome-div{
+    text-align: center;
+    padding-bottom: 300px;
+    width:50%}
+#underline{
+    text-decoration: underline;
+}
+
+a:hover{color:rgb(200,20,20)}
+
+@media (max-width:600px){
+    #flex-box{
+        flex-direction: column;
+    }
+    .about{width:auto;
+        padding: 3rem 3rem;
+    }
+    .wellcome-div{padding: 4rem}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
